@@ -1,4 +1,4 @@
-"""Update UserBot code (for TeleBot)
+"""Update UserBot code (for MR-EDITION_BOT)
 Syntax: .update
 \nAll Credits goes to © @Three_Cube_TeKnoways
 \nFor this awasome plugin.\nPorted from PpaperPlane Extended"""
