@@ -1,4 +1,4 @@
-#Join @TeleBotHelp for custom plugins
+#Join @freenetedition for custom plugins
 
 from telethon import events
 import subprocess
@@ -18,5 +18,5 @@ async def install(event):
     o = stdout.decode()
     _o = o.split("\n")
     o = "\n".join(_o)
-    OUTPUT = f"**List of Plugins:**\n{o}\n\n**TIP:** __If you want to know the commands for a plugin, do:-__ \n `.help <plugin name>` **without the < > brackets.**\n__All plugins might not work directly. Visit__ @TeleBotHelpChat __for assistance.__"
+    OUTPUT = f"**List of Plugins:**\n{o}\n\n**TIP:** __If you want to know the commands for a plugin, do:-__ \n `.help <plugin name>` **without the < > brackets.**\n__All plugins might not work directly. Visit__ @freenetedition __for assistance.__"
     await event.edit(OUTPUT)
